@@ -1,0 +1,31 @@
+.gifsWrapper{
+    columns: 320px 5;
+    break-after: avoid;
+    margin: .5em;
+    column-gap: .5em;
+}
+
+.cajaBuscar{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 7px 40px;
+    margin: 0;
+}
+
+.logo{
+    color: white;
+    margin: 0;
+}

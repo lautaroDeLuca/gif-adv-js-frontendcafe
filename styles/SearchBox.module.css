@@ -1,0 +1,26 @@
+.searchSpace{
+    display: flex;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    max-width: 250px;
+}
+
+.searchForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 0 3px;
+    border-radius: 20px;
+}
+
+.mag{
+    width: 20px;
+    display: flex;
+}
+
+.searchSpace:focus{
+    outline: none;
+}
