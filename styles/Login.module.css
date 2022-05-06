@@ -1,0 +1,29 @@
+.loginContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.loginCard{
+    border-radius: 30px;
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+.formContainer{
+    color: white;
+    padding: .5em;
+}
+
+.content{
+    margin: auto;
+}

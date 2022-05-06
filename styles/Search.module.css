@@ -1,0 +1,6 @@
+.gifsWrapper{
+    columns: 320px 5;
+    break-after: avoid;
+    margin: .5em;
+    column-gap: .5em;
+}

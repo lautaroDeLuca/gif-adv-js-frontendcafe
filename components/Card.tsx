@@ -8,15 +8,10 @@ const apiKey : string = "woT4G1j7wgBf009XLGBuOngeNzKO139h";
 
 const Card = (props : {gif: string, description: string, gifID: string}) => {
 
-  const newTo = { 
-    pathname: `gifdetails/${props.gifID}`,
-    param1: props.gifID 
-  };
-
   return (
     <>
-      <div>
-        <Link     href={{
+      <div className={styles.pointer}>
+        <Link href={{
         pathname: "/gifdetails",
         query: {id: props.gifID},
     }}>

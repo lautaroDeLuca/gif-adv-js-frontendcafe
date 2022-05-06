@@ -5,8 +5,8 @@ const Button = ( props : { text: string } ) => {
   return (
         <>
             <div className={styles.container}>
-                <a href="">
-                {props.text}
+                <a href={"/"}>
+                  {props.text}
                 </a>
             </div>
         </>
